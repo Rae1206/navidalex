@@ -1,0 +1,10 @@
+{
+  "byName": {},
+  "byProgram": {
+    "pi": "claude.png",
+    "claude": "codex.png"
+  },
+  "working": "working-kitten.png",
+  "resting": "resting-kitten.png",
+  "blocked": "blocked-kitten.png"
+}

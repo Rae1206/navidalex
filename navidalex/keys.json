@@ -1,0 +1,34 @@
+{
+  "global": {
+    "ctrl-shift-m": "mod.open:pi-models",
+    "ctrl-shift-i": "mod.open:pi-images",
+    "ctrl-shift-r": "mod.open:redline",
+    "ctrl-shift-y": "mod.open:session-history",
+    "ctrl-shift-h": "mod.open:atuin-threads",
+    "ctrl-shift-s": "layout.toggle:skillshare-panel"
+  },
+  "mod:any-chat": {
+    "ctrl-shift-j": "any-chat.toggle",
+    "ctrl-=": "any-chat.bigger",
+    "ctrl-+": "any-chat.bigger",
+    "ctrl--": "any-chat.smaller",
+    "ctrl-0": "any-chat.reset-size"
+  },
+  "layout:navidalex": {
+    "ctrl-a": "tab.prev",
+    "ctrl-d": "tab.next",
+    "cmd-w": "p5-tabs-forest.close-pane",
+    "cmd-p": "mod.open:p5-picker-forest",
+    "cmd-shift-p": "mod.open:p5-palette-forest",
+    "ctrl-shift-k": "mod.open:p5-picker-forest",
+    "ctrl-shift-p": "mod.open:p5-palette-forest",
+    "ctrl-shift-j": "p5-pane-chat-forest.toggle",
+    "ctrl-shift-g": {
+      "command": "layout.select",
+      "args": {
+        "stack": "panel-body",
+        "child": "git"
+      }
+    }
+  }
+}
